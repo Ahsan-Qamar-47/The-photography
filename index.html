@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Photography</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans text-gray-800">
+
+    <!-- ✅ Navigation -->
+    <nav class="mt-5 px-5 flex justify-between items-center">
+        <div class="text-2xl font-bold text-[#137548]">The Photography</div>
+
+        <!-- Desktop Menu -->
+        <ul class="hidden md:flex space-x-10">
+            <li><a href="#" class="text-[#137548] font-bold border-b-2 border-[#137548] pb-1">Home</a></li>
+            <li><a href="#"
+                    class="text-[#137548] hover:font-bold hover:border-b-2 hover:border-[#137548] hover:pb-1">Free
+                    Course</a></li>
+            <li><a href="#"
+                    class="text-[#137548] hover:font-bold hover:border-b-2 hover:border-[#137548] hover:pb-1">Meet the
+                    Founder</a></li>
+            <li><a href="#"
+                    class="text-[#137548] hover:font-bold hover:border-b-2 hover:border-[#137548] hover:pb-1">Blog</a>
+            </li>
+        </ul>
+
+        <!-- Mobile Button -->
+        <button id="menu-btn" class="md:hidden text-3xl text-[#137548]">☰</button>
+    </nav>
+
+    <!-- Mobile Dropdown -->
+    <ul id="mobile-menu" class="hidden flex-col items-center mt-5 space-y-3 md:hidden">
+        <li><a href="#" class="text-[#137548] font-bold">Home</a></li>
+        <li><a href="#" class="text-[#137548]">Free Course</a></li>
+        <li><a href="#" class="text-[#137548]">Meet the Founder</a></li>
+        <li><a href="#" class="text-[#137548]">Blog</a></li>
+    </ul>
+
+    <!-- ✅ Hero Section -->
+    <header class="mt-20 text-center">
+        <div class="flex flex-col lg:flex-row justify-center items-center">
+            <img src="images/cassidy-towers-3_XEOGZ_4b4-unsplash.jpg" alt="Camera on tripod"
+                class="w-60 sm:w-72 lg:mr-10 rounded shadow mb-5 lg:mb-0">
+            <h1 class="text-3xl sm:text-4xl lg:text-6xl font-bold text-[#212221]">
+                The <br> <span class="text-[#137548]">Photography</span>
+            </h1>
+        </div>
+
+        <div class="flex flex-col lg:flex-row justify-center items-center mt-10 px-5">
+            <p class="text-5xl sm:text-7xl text-[#212221] lg:mr-5">"</p>
+            <p class="sm:text-lg md:text-xl lg:text-2xl text-[#212221] max-w-md">
+                <span class="text-[#137548] font-bold">Photography</span> is the art of capturing
+                moments that words often fail to describe. Every image tells a story, freezes an emotion,
+                and preserves a memory forever.
+            </p>
+            <img src="images/ira-ostafiichuk-U6A27TdwQxg-unsplash.jpg" alt="Photographer taking a shot"
+                class="w-60 sm:w-72 rounded shadow mt-5 lg:mt-0">
+        </div>
+    </header>
+
+    <!-- ✅ What is Photography -->
+    <main>
+        <section class="mt-20 flex flex-col lg:flex-row justify-around items-center text-center lg:text-left px-5">
+            <p class="max-w-xs mb-10 lg:mb-0">
+                <span class="font-bold">Photography</span> is more than just pressing a button.
+                It’s about observing the world differently, noticing the play of light, the
+                emotions in people’s eyes, and the beauty in everyday life.
+            </p>
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#212221]">
+                What is <br><span class="text-[#137548]">Photography?</span>
+            </h1>
+        </section>
+
+        <!-- ✅ Founder Section -->
+        <section class="mt-32 flex flex-col lg:flex-row justify-around items-center px-5">
+            <div class="max-w-md text-center lg:text-left mb-10 lg:mb-0">
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#212221] mb-5">About <span
+                        class="text-[#137548]">Founder</span></h1>
+                <p>
+                    Our founder, Alex Johnson, is a passionate photographer with over a decade of
+                    experience in landscape, portrait, and street photography. His vision is to
+                    inspire others to see the world through the lens and discover the beauty hidden
+                    in plain sight.
+                </p>
+            </div>
+            <div class="relative mb-10 lg:mb-0">
+                <div class="bg-[#137548] bg-opacity-40 h-[20rem] w-[15rem] sm:h-[25rem] sm:w-[20rem]"></div>
+                <img src="images/jake-johnson-kdEV_pbBUS0-unsplash.jpg" alt="Founder portrait"
+                    class="w-60 sm:w-72 absolute top-5 left-5 rounded shadow-lg">
+            </div>
+        </section>
+
+        <!--  Projects Section -->
+        <section class="mt-32 px-5">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-10 text-center lg:text-right">
+                Recent <span class="text-[#137548]">Projects</span>
+            </h1>
+
+            <!-- Grid layout -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center">
+                <div class="w-40 sm:w-52 hover:scale-105 transition">
+                    <img src="images/reinhart-julian-WxM465oM4j4-unsplash.jpg" alt="Website design project"
+                        class="rounded shadow">
+                    <div class="text-[#137548] py-2 text-center">Web Design</div>
+                </div>
+
+                <div class="w-40 sm:w-52 hover:scale-105 transition">
+                    <img src="images/alif-ngoylung-jg-6ARMiaPM-unsplash.jpg" alt="Portrait project"
+                        class="rounded shadow">
+                    <div class="text-[#137548] py-2 text-center">Personal</div>
+                </div>
+
+                <div class="w-40 sm:w-52 hover:scale-105 transition">
+                    <img src="images/karl-fredrickson-DsAjH9B24G8-unsplash.jpg" alt="Nature project"
+                        class="rounded shadow">
+                    <div class="text-[#137548] py-2 text-center">Nature</div>
+                </div>
+
+                <div class="w-40 sm:w-52 hover:scale-105 transition">
+                    <img src="images/kameron-kincade-CnVWM7rIM-E-unsplash.jpg" alt="Luxury project"
+                        class="rounded shadow">
+                    <div class="text-[#137548] py-2 text-center">Luxury</div>
+                </div>
+
+                <div class="w-40 sm:w-52 hover:scale-105 transition">
+                    <img src="images/marco-xu-ToUPBCO62Lw-unsplash.jpg" alt="Fancy project" class="rounded shadow">
+                    <div class="text-[#137548] py-2 text-center">Fancy</div>
+                </div>
+
+                <div class="w-40 sm:w-52 hover:scale-105 transition">
+                    <img src="images/william-thomas-ny6tO4ItOEY-unsplash.jpg" alt="Impact project"
+                        class="rounded shadow">
+                    <div class="text-[#137548] py-2 text-center">Impact</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ✅ Footer -->
+    <footer class="bg-gray-100 py-10 mt-20">
+        <div class="container mx-auto flex flex-col sm:flex-row justify-around text-center sm:text-left">
+            <div class="m-5">
+                <h1 class="font-bold mb-5 text-xl">Site Menu</h1>
+                <p>About</p>
+                <p>Photography</p>
+                <p>Lens Database</p>
+                <p>Contact</p>
+            </div>
+            <div class="m-5">
+                <h1 class="font-bold mb-5 text-xl">Resources</h1>
+                <p>Free Courses</p>
+                <p>Workshops</p>
+                <p>Guides</p>
+                <p>Community</p>
+            </div>
+            <div class="m-5">
+                <h1 class="font-bold mb-5 text-xl">Follow</h1>
+                <p>Instagram</p>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>YouTube</p>
+            </div>
+        </div>
+        <p class="text-center text-gray-500 mt-10">© 2025 The Photography. All rights reserved.</p>
+    </footer>
+
+    <!-- ✅ Mobile Menu Toggle Script -->
+    <script>
+        const menuBtn = document.getElementById("menu-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+    </script>
+
+</body>
+
+</html>
